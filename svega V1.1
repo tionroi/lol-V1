@@ -644,7 +644,7 @@ editwatermark = library.GUI.ChildAdded:Connect(function(ch)
     if ch:IsA("Frame") then
         ch.AnchorPoint = Vector2.new(0.5, 0.5)
         ch.Position = UDim2.new(0.5, 0, 0.05, 0)
-        Instance.new("UICorner", ch).CornerRadius = UDim.new(0.1, 0)
+        Instance.new("UICorner", ch).CornerRadius = UDim.new(0.2, 0)
     end
     editwatermark:Disconnect()
 end)
